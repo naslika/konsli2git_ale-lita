@@ -1,6 +1,6 @@
 :root {
-  --primary: #f7857b;
-  --bg: #efcce7;
+  --primary: #561C24;
+  --bg:#FFB4B4;
 }
 
 * {
@@ -16,7 +16,7 @@
 body {
   font-family: "poppins", sans-serif;
   background-color: var(--bg);
-  color: hwb(312 9% 0%);
+  color: #AF3E3E;
 }
 
 .navbar {
@@ -24,7 +24,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1.4rem 7%;
-  background-color: rgb(143, 14, 14);
+  background-color:#735557; 
   border-bottom: 1px solid #513c28;
   position: fixed;
   top: 0;
@@ -92,12 +92,12 @@ section {
 }
 
 .hero {
-  color:#7D1C4A;
+  color:#705C53;
   text-shadow: black 0 0 5px 10px;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("home.jpeg");
+  background-image: url("ihomer.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -125,7 +125,7 @@ section {
 
 .hero .content h1 {
   font-size: 5rem;
-  color: #fff;
+  color: #705C53;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
 }
@@ -135,10 +135,8 @@ section {
   margin-top: 1rem;
   line-height: 1.4;
   font-weight: 100;
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  
+  color:#740938;
 }
-
 .hero .content h1 span {
   color: var(--primary);
 }
@@ -166,13 +164,13 @@ section {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
-  color: #fff;
+  color: #B82132;
 }
 
 .about h2 span,
 .product h2 span,
 .contact h2 span {
-  color: var(--primary);
+  color:var(--primary);
 }
 
 .about .row {
@@ -191,6 +189,7 @@ section {
   object-fit: cover;
   object-position: center;
 }
+
 
 .about .row .content {
   flex: 1 1 35rem;
@@ -299,4 +298,18 @@ section {
   html {
     font-size: 55%;
   }
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+footer p {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 45rem;
 }
